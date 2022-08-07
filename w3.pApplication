@@ -1,0 +1,220 @@
+<OpenSpanDesignDocument Version="1.0" Serializer="2.0" Culture="en-IN">
+  <ComponentInfo>
+    <Type Value="OpenSpan.Adapters.Web.Universal.UniversalWebAdapter" />
+    <Assembly Value="OpenSpan.Adapters.Web" />
+    <Dependencies />
+    <AssemblyReferences>
+      <Assembly Value="OpenSpan, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters.Virtual, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters.Web.Universal, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters.Web.WebBase, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters.Windows, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.ApplicationFramework, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    </AssemblyReferences>
+    <DynamicAssemblyReferences />
+    <FileReferences />
+    <BuildReferences>
+      <File Value="DefaultWindowFactoryConfiguration.xml" />
+      <File Value="openspan.ini" />
+      <File Value="OpenSpan.x32.sys" />
+      <File Value="OpenSpan.x64.sys" />
+      <File Value="Pega.GlobalAllocator.x32.dll" />
+      <File Value="Pega.GlobalAllocator.x64.dll" />
+      <File Value="Pega.Scout.x32.dll" />
+      <File Value="Pega.Scout.x64.dll" />
+      <File Value="Pega.Security.x32.dll" />
+      <File Value="Pega.Security.x64.dll" />
+      <File Value="Pega.SharedMemory.x32.dll" />
+      <File Value="Pega.SharedMemory.x64.dll" />
+      <File Value="Pega.Sinon.x32.dll" />
+      <File Value="Pega.Sinon.x64.dll" />
+      <File Value="Pega.Utilities.x32.dll" />
+      <File Value="Pega.Utilities.x64.dll" />
+      <File Value="Pega.WER.x32.dll" />
+      <File Value="Pega.WER.x64.dll" />
+      <File Value="Pega.Windows.Broker.x32.dll" />
+      <File Value="Pega.Windows.Broker.x64.dll" />
+      <File Value="Pega.WinQueue.x32.dll" />
+      <File Value="Pega.WinQueue.x64.dll" />
+    </BuildReferences>
+    <StartAtRuntime Value="True" />
+  </ComponentInfo>
+  <Component Version="1.0">
+    <OpenSpan.Adapters.Web.Universal.UniversalWebAdapter Name="w3" Id="UniversalWebAdapter-8DA7898AD25B6EF">
+      <BrowserType Value="Edge" />
+      <HookChildProcesses Value="True" />
+      <Path Value="iexplore.exe" />
+      <StartMethod Value="MonitorAll" />
+      <StartPage Value="https://www.w3schools.com/html/html_tables.asp" />
+      <StopMethod Value="None" />
+      <Content Name="Controls">
+        <Items>
+          <OpenSpan.Adapters.Web.WebBase.Controls.WebPage Name="HTMLTables" Id="WebPage-8DA7898D3DA625D">
+            <DummyPropertyToDetectReplaceUndo Value="0" />
+            <ForwardObjectExplorerEvent Value="True" />
+            <InherentlySensitive Value="False" />
+            <IsGlobal Value="True" />
+            <MatchingIndex Value="0" />
+            <PegaId Value="0" />
+            <Sensitive Value="False" Extended="True" />
+            <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlDocumentTarget, OpenSpan.Adapters.Web.WebBase" />
+            <UsesExtension Value="False" />
+            <UsesUiConnector Value="False" />
+            <XrayGuid Value="" />
+            <Content Name="Controls">
+              <Items>
+                <OpenSpan.Adapters.Web.WebBase.Controls.WebControl Name="Adp_tbl_CompanyContact" Id="WebControl-8DA789AF80A3AFF">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <IsContainer Value="True" />
+                  <MatchingIndex Value="54" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="DIV" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <UsesExtension Value="False" />
+                  <UsesUiConnector Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="Controls">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.Controls.TableRow Name="Adp_tbl_tr_AlfredsFutterki" Id="TableRow-8DA789C2DEBCE68">
+                        <DummyPropertyToDetectReplaceUndo Value="0" />
+                        <ForwardObjectExplorerEvent Value="True" />
+                        <InherentlySensitive Value="False" />
+                        <IsContainer Value="True" />
+                        <MatchingIndex Value="1" />
+                        <PegaId Value="0" />
+                        <Sensitive Value="False" Extended="True" />
+                        <TagName Value="TR" />
+                        <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlTableRowElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                        <UseElementId Value="False" />
+                        <UseKeys Value="True" />
+                        <UsesExtension Value="False" />
+                        <UsesUiConnector Value="False" />
+                        <XrayGuid Value="" />
+                        <Content Name="Controls">
+                          <Items>
+                            <OpenSpan.Adapters.Web.WebBase.Controls.TableCell Name="Adp_tbl_td_AlfredsFutterk" Id="TableCell-8DA789C504BF66D">
+                              <DummyPropertyToDetectReplaceUndo Value="0" />
+                              <ForwardObjectExplorerEvent Value="True" />
+                              <InherentlySensitive Value="False" />
+                              <MatchingIndex Value="0" />
+                              <PegaId Value="0" />
+                              <Sensitive Value="False" Extended="True" />
+                              <TagName Value="TD" />
+                              <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlTableCellElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                              <UseElementId Value="False" />
+                              <UsesExtension Value="False" />
+                              <UsesUiConnector Value="False" />
+                              <XrayGuid Value="" />
+                              <Content Name="MatchRules">
+                                <Items>
+                                  <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert4" Id="VirtualPropertyMatchRule-8DA789C5092ACAF">
+                                    <PropertyName Value="openspan_rowcol" />
+                                    <Sensitive Value="False" Extended="True" />
+                                    <Text Value="Simple|True|(User Culture)|{&quot;row&quot;:1,&quot;column&quot;:0}" />
+                                  </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                                </Items>
+                              </Content>
+                            </OpenSpan.Adapters.Web.WebBase.Controls.TableCell>
+                            <OpenSpan.Adapters.Web.WebBase.Controls.TableCell Name="Adp_tbl_td_MariaAnders" Id="TableCell-8DA789C537AE2C0">
+                              <DummyPropertyToDetectReplaceUndo Value="0" />
+                              <ForwardObjectExplorerEvent Value="True" />
+                              <InherentlySensitive Value="False" />
+                              <MatchingIndex Value="1" />
+                              <PegaId Value="0" />
+                              <Sensitive Value="False" Extended="True" />
+                              <TagName Value="TD" />
+                              <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlTableCellElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                              <UseElementId Value="False" />
+                              <UsesExtension Value="False" />
+                              <UsesUiConnector Value="False" />
+                              <XrayGuid Value="" />
+                              <Content Name="MatchRules">
+                                <Items>
+                                  <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert6" Id="VirtualPropertyMatchRule-8DA789C53B33030">
+                                    <PropertyName Value="openspan_rowcol" />
+                                    <Sensitive Value="False" Extended="True" />
+                                    <Text Value="Simple|True|(User Culture)|{&quot;row&quot;:1,&quot;column&quot;:1}" />
+                                  </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                                </Items>
+                              </Content>
+                            </OpenSpan.Adapters.Web.WebBase.Controls.TableCell>
+                            <OpenSpan.Adapters.Web.WebBase.Controls.TableCell Name="Adp_tbl_td_Germany" Id="TableCell-8DA789C563ED42C">
+                              <DummyPropertyToDetectReplaceUndo Value="0" />
+                              <ForwardObjectExplorerEvent Value="True" />
+                              <InherentlySensitive Value="False" />
+                              <MatchingIndex Value="2" />
+                              <PegaId Value="0" />
+                              <Sensitive Value="False" Extended="True" />
+                              <TagName Value="TD" />
+                              <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlTableCellElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                              <UseElementId Value="False" />
+                              <UsesExtension Value="False" />
+                              <UsesUiConnector Value="False" />
+                              <XrayGuid Value="" />
+                              <Content Name="MatchRules">
+                                <Items>
+                                  <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert7" Id="VirtualPropertyMatchRule-8DA789C5678FC83">
+                                    <PropertyName Value="openspan_rowcol" />
+                                    <Sensitive Value="False" Extended="True" />
+                                    <Text Value="Simple|True|(User Culture)|{&quot;row&quot;:1,&quot;column&quot;:2}" />
+                                  </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                                </Items>
+                              </Content>
+                            </OpenSpan.Adapters.Web.WebBase.Controls.TableCell>
+                          </Items>
+                        </Content>
+                        <Content Name="MatchRules">
+                          <Items>
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert5" Id="VirtualPropertyMatchRule-8DA789C3AD6B782">
+                              <PropertyName Value="tagname" />
+                              <Sensitive Value="False" Extended="True" />
+                              <Text Value="Simple|True|(User Culture)|TR" />
+                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                          </Items>
+                        </Content>
+                      </OpenSpan.Adapters.Web.WebBase.Controls.TableRow>
+                    </Items>
+                  </Content>
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert3" Id="VirtualPropertyMatchRule-8DA789B4F7D6357">
+                        <PropertyName Value="classname" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|w3-white w3-padding notranslate w3-padding-16" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.WebControl>
+              </Items>
+            </Content>
+            <Content Name="MatchRules">
+              <Items>
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert1" Id="VirtualPropertyMatchRule-8DA7898D410D5B1">
+                  <PropertyName Value="url" />
+                  <Sensitive Value="False" Extended="True" />
+                  <Text Value="Simple|True|(User Culture)|https://www.w3schools.com/html/html_tables.asp" />
+                </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert2" Id="VirtualPropertyMatchRule-8DA7898D42D51DE">
+                  <PropertyName Value="title" />
+                  <Sensitive Value="False" Extended="True" />
+                  <Text Value="Simple|True|(User Culture)|HTML Tables" />
+                </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+              </Items>
+            </Content>
+          </OpenSpan.Adapters.Web.WebBase.Controls.WebPage>
+        </Items>
+      </Content>
+      <Content Name="ElectronConfiguration">
+        <OpenSpan.Adapters.Web.Universal.Electron.ElectronConfiguration>
+          <Path Value="" />
+        </OpenSpan.Adapters.Web.Universal.Electron.ElectronConfiguration>
+      </Content>
+    </OpenSpan.Adapters.Web.Universal.UniversalWebAdapter>
+  </Component>
+</OpenSpanDesignDocument>
