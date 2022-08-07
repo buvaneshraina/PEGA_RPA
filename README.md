@@ -2,7 +2,7 @@
 
 # Deletion Automation Using Excel
 
-files :Excel_Del_Autx.pAutomation and Delete.xlsx
+files :Excel_Del_Autx.pAutomation and Delete.xlsx  zip:DeletionExecel_proj.zip
 
 # Get Cell Automation Using Excel
 
