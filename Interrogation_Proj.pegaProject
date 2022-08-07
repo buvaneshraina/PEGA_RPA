@@ -1,0 +1,16 @@
+{
+  "Id": "Project-8DA789882984B4E",
+  "Exclude": [
+    "**.user",
+    "**.settings",
+    "**.pSys*",
+    "bin",
+    "_xray_",
+    ".git",
+    "**.git*",
+    "project.*",
+    "**.pResources"
+  ],
+  "Include": [
+  ]
+}
