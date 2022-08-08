@@ -11,3 +11,7 @@ Files :Autx_ExcelGetcell.pAutomation and Getcell.xlsx zip:GetCellExcel_Proj.zip
 # Website Interogation
 
 Files:Interrogation_Proj.zip
+
+# Set Cell Automation Using Excel
+
+Files:set.xlsx and zip:SetCellExcel_proj 
